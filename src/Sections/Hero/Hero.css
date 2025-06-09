@@ -1,0 +1,21 @@
+.hero-section-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    gap: 100px;
+}
+
+.hero-section-title {
+    font-size: 24px;
+}
+
+.hero-section-title-text1 {
+    color: gray;
+}
+
+
+
+.hero-section-right {
+
+}

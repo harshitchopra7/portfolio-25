@@ -1,0 +1,65 @@
+.navbar-container {
+    padding: 20px 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navitems-container {
+    display: flex;
+    gap: 20px;
+    font-weight: 600;
+    color: gray;
+    font-size: 18px;
+}
+
+.navitem-container:hover {
+    cursor: pointer;
+    scale: 1.1;
+    color: white;
+}
+
+.hero-section-title-text2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+}
+
+.hero-section-title-rotating-text {
+    padding-left: 0.5rem;   /* px-2 */
+    padding-right: 0.5rem;
+    color: white;           /* text-black */
+    overflow: hidden;       /* overflow-hidden */
+    padding-top: 0.125rem;  /* py-0.5 */
+    padding-bottom: 0.125rem;
+    display: flex;
+    justify-content: center; /* justify-center */
+    border-radius: 0.5rem;  /* rounded-lg */
+  }
+
+  /* For screen width ≥ 640px (sm) */
+@media (min-width: 640px) {
+    .hero-section-title-rotating-text {
+      padding-left: 0.5rem;   /* sm:px-2 */
+      padding-right: 0.5rem;
+      padding-top: 0.25rem;   /* sm:py-1 */
+      padding-bottom: 0.25rem;
+    }
+  }
+  
+  /* For screen width ≥ 768px (md) */
+  @media (min-width: 768px) {
+    .hero-section-title-rotating-text {
+      padding-left: 0.75rem;  /* md:px-3 */
+      padding-right: 0.75rem;
+      padding-top: 0.5rem;    /* md:py-2 */
+      padding-bottom: 0.5rem;
+    }
+  }
+  
+  .hero-section-title-text3 {
+    font-size: 36px;
+    color: gray;
+    font: 600;
+  }
