@@ -26,6 +26,8 @@ import arrow from "./arrow.svg";
 import contact from "./contact.svg";
 import soundon from "./soundon.png";
 import soundoff from "./soundoff.png";
+import githubOutlined from "./githubOutlined.svg";
+import linkedinOutlined from "./linkedinOutlined.svg";
 
 export {
   css,
@@ -56,4 +58,6 @@ export {
   contact,
   soundon,
   soundoff,
+  githubOutlined,
+  linkedinOutlined,
 };

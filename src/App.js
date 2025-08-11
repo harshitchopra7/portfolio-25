@@ -5,6 +5,7 @@ import Hero from "./Sections/Hero/Hero";
 import WorkExperience from "./Sections/WorkExperience/WorkExperience";
 import Skills from "./Sections/Skills/Skills";
 import Projects from "./Sections/Projects/Projects";
+import Contact from "./Sections/Contact/Contact";
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
       <Hero />
       <Skills />
       <WorkExperience />
-      <Projects />
+      {/* <Projects /> */}
+      <Contact />
     </div>
   );
 }

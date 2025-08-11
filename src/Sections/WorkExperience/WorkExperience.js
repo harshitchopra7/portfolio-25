@@ -9,7 +9,7 @@ import { experiences, skills } from "../../constants.js";
 
 function WorkExperience() {
   return (
-    <div className="work-experience-section">
+    <div className="work-experience-section" id="experience">
       <h3 className="subhead-text">Work Experience.</h3>
       <div className="work-experience-description">
         <p>

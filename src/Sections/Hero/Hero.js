@@ -3,6 +3,11 @@ import "./Hero.css";
 import RotatingText from "../../Components/RotatingText/RotatingText";
 import RenderLottie from "../../Components/RenderLottie/RenderLottie";
 import Lanyard from "../../Components/Lanyard/Lanyard.js";
+import {
+  github,
+  githubOutlined,
+  linkedinOutlined,
+} from "../../assets/icons/index.js";
 
 function Hero() {
   return (
@@ -16,7 +21,8 @@ function Hero() {
         </div>
 
         <div className="hero-section-title-text3">
-          SDE-2 Fullstack @ Skillsoft | Ex - Swiggy
+          {/* SDE-2 Fullstack @ Skillsoft | Ex - Swiggy */}
+          SDE-2 Fullstack | Ex - Swiggy
         </div>
       </div>
 

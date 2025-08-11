@@ -157,15 +157,4 @@ export const experiences = [
       "I authored comprehensive end-to-end test cases utilizing Playwright and Cypress, as well as unit test cases with Jest, <strong>leading to a substantial boost in code coverage from 65% to over 85%.</strong> This quality assurance initiative ensured more robust and reliable software, enhancing overall product stability.",
     ],
   },
-  {
-    title: "Software Development Engineer Intern",
-    company_name: "Swiggy",
-    icon: swiggy,
-    iconBg: "#fbc3bc",
-    date: "June 2021 - Dec 2021",
-    points: [
-      "Created layout of Logout Options Page which now clocks over <strong>1.15M monthly users.</strong>",
-      "I authored comprehensive end-to-end test cases utilizing Playwright and Cypress, as well as unit test cases with Jest, <strong>leading to a substantial boost in code coverage from 65% to over 85%.</strong> This quality assurance initiative ensured more robust and reliable software, enhancing overall product stability.",
-    ],
-  },
 ];

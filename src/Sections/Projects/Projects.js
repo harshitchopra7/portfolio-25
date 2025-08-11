@@ -1,5 +1,4 @@
 import React from "react";
-import InfiniteScroll from "../../Components/InfiniteScroll/InfiniteScroll";
 import "./Projects.css";
 import ChromaGrid from "../../Components/ChromaGrid/ChromaGrid";
 
@@ -53,7 +52,7 @@ const items = [
 
 function Projects() {
   return (
-    <div className="projects-container">
+    <div className="projects-container" id="projects">
       <p>Projects</p>
       <div style={{ paddingTop: "50px" }}>
         <ChromaGrid

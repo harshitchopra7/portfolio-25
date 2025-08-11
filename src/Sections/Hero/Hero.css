@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 90vh;
+    height: 70vh;
     gap: 100px;
 }
 
@@ -14,8 +14,15 @@
     color: gray;
 }
 
+.hero-section-social-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 
 .hero-section-right {
 
 }
+
